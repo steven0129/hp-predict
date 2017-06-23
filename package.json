@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "set NODE_ENV=production && node server.js"
   },
   "dependencies": {
     "koa": "^2.0.1",
